@@ -14,16 +14,16 @@
 
 7. Use `lastIndexOf` to determine the position of the last occurrence of a script.
 
-8. Use search to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'.
+8. Use `search` to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'.
 
-9. Use trim() to remove any trailing whitespace at the beginning and the end of a string.
+9. Use `trim()` to remove any trailing whitespace at the beginning and the end of a string.
 
 10. Boolean value is either true or false.
 
-    - Write three JavaScript statement which provide truthy value.
-    - Write three JavaScript statement which provide falsy value.
+    - Write three JavaScript statement which provide _truthy_ value.
+    - Write three JavaScript statement which provide _falsy_ value.
 
-11. Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
+11. Figure out the result of the following _comparison expression_ first without using console.log(). After you decide the result confirm it using console.log()
 
     - 4 > 3
     - 4 >= 3
@@ -38,7 +38,7 @@
     - 4 === '4'
     - Find the length of python and jargon and make a falsy comparison statement.
 
-12. Use the Date object to do the following activities
+12. Use the `Date` object to do the following activities
 
     - What is the year today?
     - What is the month today as a number?
@@ -48,7 +48,7 @@
     - What is the minutes now?
     - Find out the numbers of seconds elapsed from January 1, 1970 to now.
 
-13. Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
+13. Write a script that `prompt` the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
 
 14. Slope is m = (y2-y1)/(x2-x1). Find the slope between point (2, 2) and point(6,10)
 

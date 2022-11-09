@@ -102,11 +102,94 @@ var h = prompt("ENTER HEIGHT OF TRIANGLE");
 var area = 0.5 * b * h;
 */
 
-/*
+/*    14
 var x1 = 2;
 var x2 = 6;
 var y1 = 2;
 var y2 = 10;
 var m = (y2 - y1) / (x2 - x1);
 console.log(m);
+*/
+
+/*    15
+var x = prompt("INPUT BASE LENGTH OF SLOPE:");
+var y = 2 * x - 2;
+*/
+
+/*    16
+var pi = 3.14;
+var r = prompt("ENTER RADIUS OF CIRCLE:");
+var area = pi * r * r;
+var c = 2 * pi * r;
+*/
+
+/*    17 date
+var d = new Date();
+var year = d.getFullYear();
+var month = d.getMonth() + 1;
+var date = d.getDate();
+var hour = d.getHours();
+var min = d.getMinutes();
+if (month < 10) month = "0" + month;
+if (date < 10) date = "0" + date;
+if (hour < 10) hour = "0" + hour;
+if (min < 10) min = "0" + min;
+console.log(`${year}-${month}-${date} ${hour}:${min}`);
+console.log(`${date}-${month}-${year} ${hour}:${min}`);
+console.log(`${date}/${month}/${year} ${hour}:${min}`);
+*/
+
+/*    18 if-else
+var age = prompt("Enter your age:");
+if (age >= 18) {
+  alert("You are old enough to drive");
+} else {
+  var diff = 18 - age;
+  alert(`wait for ${diff} years to turn 18`);
+}
+*/
+
+/*    19
+function even(n) {
+  if (n % 2 == 0) return "Even";
+  else return "Odd";
+}
+console.log(even(123));
+*/
+
+/*    20
+var score = prompt("ENTER YOUR SCORE:");
+var grade;
+switch (score) {
+  case score <= 100 || score >= 80:
+    grade = "A";
+    break;
+  case score <= 79 || score >= 70:
+    grade = "B";
+    break;
+  case score <= 69 || score >= 60:
+    grade = "C";
+    break;
+  case score <= 59 || score >= 50:
+    grade = "D";
+    break;
+  case score <= 49 || score >= 0:
+    grade = "F";
+    break;
+  default:
+    grade = "";
+}
+*/
+
+/*    21
+var month = prompt("ENTER CURRENT MONTH:");
+var season;
+if (month == "Septemer" || month == "October" || month == "November")
+  season = "Autumn";
+else if (month == "December" || month == "January" || month == "February")
+  season = "Winter";
+else if (month == "March" || month == "April" || month == "May")
+  season = "Spring";
+else if (month == "June" || month == "July" || month == "August")
+  season = "Summer";
 */

@@ -56,15 +56,15 @@
 
 16. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
 
-17. Create a human readable time format using the Date time object
+17. Create a human readable time format using the _Date time object_
 
     - YYYY-MM-DD HH:mm
     - DD-MM-YYYY HH:mm
     - DD/MM/YYYY HH:mm
 
-18. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to wait for the number of years he needs to turn 18.
+18. Get user input using prompt(“Enter your age:”). `If` user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to wait for the number of years he needs to turn 18.
 
-19. Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript?
+19. Even numbers are divisible by 2 and the _remainder_ is zero. How do you check, if a number is even or not using JavaScript?
 
 20. Write a code which can give grades to students according to theirs scores:
 

@@ -193,3 +193,137 @@ else if (month == "March" || month == "April" || month == "May")
 else if (month == "June" || month == "July" || month == "August")
   season = "Summer";
 */
+
+/*    22
+var input = prompt("ENTER MONTH:");
+input = input.toLowerCase();
+var nd;
+switch (input) {
+  case "january":
+    nd = 31;
+    break;
+  case "february":
+    nd = 28;
+    break;
+  case "march":
+    nd = 31;
+    break;
+  case "april":
+    nd = 30;
+    break;
+  case "may":
+    nd = 31;
+    break;
+  case "june":
+    nd = 30;
+    break;
+  case "july":
+    nd = 31;
+    break;
+  case "august":
+    nd = 31;
+    break;
+  case "september":
+    nd = 30;
+    break;
+  case "october":
+    nd = 31;
+    break;
+  case "november":
+    nd = 30;
+    break;
+  case "december":
+    nd = 31;
+    break;
+  default:
+    alert("ENTER VALID MONTH");
+}
+*/
+
+/*    23
+var month = prompt("ENTER MONTH:");
+month = month.toLowerCase();
+var year = prompt("ENTER YEAR:");
+var nd;
+switch (month) {
+  case "january":
+    nd = 31;
+    break;
+  case "february":
+    if (year % 4 == 0) nd = 29;
+    else nd = 28;
+    break;
+  case "march":
+    nd = 31;
+    break;
+  case "april":
+    nd = 30;
+    break;
+  case "may":
+    nd = 31;
+    break;
+  case "june":
+    nd = 30;
+    break;
+  case "july":
+    nd = 31;
+    break;
+  case "august":
+    nd = 31;
+    break;
+  case "september":
+    nd = 30;
+    break;
+  case "october":
+    nd = 31;
+    break;
+  case "november":
+    nd = 30;
+    break;
+  case "december":
+    nd = 31;
+    break;
+  default:
+    alert("ENTER VALID MONTH");
+}
+*/
+/*    24 access external data
+var countries = require("./countries");
+var webTech = require("./web_techs");
+*/
+
+/*    25 edit array
+const shoppingCart = ["Milk", "Coffee", "Tea", "Honey"];
+shoppingCart.unshift("Meat"); // Add element to beginning of array
+shoppingCart.push("Sugar"); // Add element to end of array
+shoppingCart.splice(4, 1); // Remove '1' element from position '4' of array
+shoppingCart[3] = "Green Tea";
+console.log(shoppingCart);
+*/
+
+/*    26 includes
+var countries = require("./countries");
+if (countries.includes("Ethiopia")) {
+  console.log("ETHIOPIA");
+} else {
+  countries.push("Ethiopia");
+  console.log(countries);
+}
+*/
+
+const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
+console.log(
+  ages.sort(function (a, b) {
+    return a - b;
+  })
+); // Sorting the array
+console.log(Math.min(...ages)); // Min age
+console.log(Math.max(...ages)); // Max age
+if (ages.length % 2 == 0) {
+  var m1 = ages.length / 2;
+  var m2 = m1 + 1;
+  console.log(ages[m1] + " " + ages[m2]); // Median age if array length is even
+} else {
+  var m = Math.ceil(ages.length / 2);
+  console.log(ages[m]); // Median age if array length is odd
+}

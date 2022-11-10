@@ -371,6 +371,29 @@ console.log(countries.sort());
 console.log(webTech.sort());
 */
 
+/*  32
+const newArr = [];
+for (var i = 0; i < countries.length; i++) {
+  if (countries[i].includes("land")) newArr.push(countries[i]);
+} // Grab countries containing "land"
+var highChar = countries[0];
+for (var i = 0; i < countries.length; i++) {
+  if (countries[i].length > highChar.length) highChar = countries[i];
+} // finding country with max characters
+const newArr2 = [];
+for (var i = 0; i < countries.length; i++) {
+  if (countries[i].length == 4) newArr2.push(countries[i]);
+}
+const newArr3 = [];
+for (var i = 0; i < countries.length; i++) {
+  if (countries[i].includes(" ")) newArr3.push(countries[i]);
+}
+const newArr4 = countries.reverse();
+for (var i = 0; i < newArr4.length; i++) {
+  newArr4[i] = newArr4[i].toUpperCase();
+}
+*/
+
 /*    33 function calling
 function bmiCalc(weight, height) {
   bmi = weight / (height * height);
@@ -381,4 +404,19 @@ function bmiCalc(weight, height) {
   else console.log("WARNING! YOU ARE OBESE");
 }
 bmiCalc(60, 1.8);
+*/
+
+/*    35
+const arr = [764, 445, 45, 457, 465, 83, 23, 128, 374, 745, 674, 398, 920, 10];
+let flag = 0;
+for (var i = 0; i < arr.length; i++) {
+  for (var j = 0; j < arr.length; j++) {
+    if (arr[j] == arr[i]) flag++;
+  }
+  if (flag != 1) {
+    console.log("Array items not unique");
+    break;
+  }
+  flag = 0;
+}
 */

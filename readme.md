@@ -104,15 +104,15 @@
     - Find the median age(one middle item or two middle items divided by two)
     - Find the average age(all items divided by number of items)
     - Find the range of the ages(max minus min)
-    - Compare the value of (min - average) and (max - average), use abs() method
+    - Compare the value of (min - average) and (max - average), use `abs()` method
 
-28. Use for loop to iterate from 0 to 100 and print only prime numbers
+28. Use `for loop` to iterate from 0 to 100 and print only prime numbers
 
 29. Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
 
-30. Write a script which generates a random hexadecimal number.
+30. Write a script which generates a _random hexadecimal number_.
 
-31. Sort the webTechs array and mernStack array
+31. _Sort_ the webTechs array and mernStack array
     // countries Array : https://gist.github.com/incredimike/1469814
 
 32. Array Questions
@@ -124,7 +124,7 @@
     - Extract all the countries containing two or more words from the countries array and print it as array
     - Reverse the countries array and capitalize each country and stored it as an array
 
-33. Body mass index(BMI) is calculated as follows: bmi = weight in Kg / (height x height) in m2. Write a function which calculates bmi. BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is underweight, normal, overweight or obese based the information given below.
+33. Body mass index(BMI) is calculated as follows: bmi = weight in Kg / (height x height) in m2. Write a `function` which calculates bmi. BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is underweight, normal, overweight or obese based the information given below.
 
     - The same groups apply to both men and women.
     - Underweight: BMI is less than 18.5

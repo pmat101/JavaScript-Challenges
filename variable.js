@@ -311,6 +311,7 @@ if (countries.includes("Ethiopia")) {
 }
 */
 
+/*    27 sort, min, max, abs
 const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
 console.log(
   ages.sort(function (a, b) {
@@ -327,3 +328,57 @@ if (ages.length % 2 == 0) {
   var m = Math.ceil(ages.length / 2);
   console.log(ages[m]); // Median age if array length is odd
 }
+var sum = 0;
+for (var i = 0; i < ages.length; i++) {
+  sum = sum + ages[i];
+}
+var avg = sum / ages.length; // Average age
+console.log(Math.max(...ages) - Math.min(...ages)); // Range of the ages
+console.log(
+  Math.abs(Math.max(...ages) - avg) - Math.abs(Math.min(...ages) - avg)
+);  // Comparing 2 absolute values
+*/
+
+/*    28 prime numbers under 100
+for (var i = 0; i <= 100; i++) {
+  var flag = 0;
+  for (var j = 2; j < i; j++) {
+    if (i % j == 0) flag = 1;
+  }
+  if (flag == 0) console.log(i);
+}
+*/
+
+/*    29
+var odd = 0;
+var even = 0;
+for (var i = 0; i <= 100; i++) {
+  if (i % 2 == 0) even = even + i;
+  else odd = odd + i;
+}
+console.log(`SUM OF ALL EVEN NUMBERS: ${even}`);
+console.log(`SUM OF ALL ODD NUMBERS: ${odd}`);
+*/
+
+/*    30 random hexadecimal number
+console.log(Math.round(Math.random() * 100).toString(16));
+*/
+
+/*    31
+var countries = require("./countries");
+var webTech = require("./web_techs");
+console.log(countries.sort());
+console.log(webTech.sort());
+*/
+
+/*    33 function calling
+function bmiCalc(weight, height) {
+  bmi = weight / (height * height);
+  if (bmi < 18.5) console.log("YOU ARE UNDERWEIGHT");
+  else if (bmi >= 18.5 && bmi <= 24.9)
+    console.log("CONGRATS! YOUR WEIGHT IS NORMAL");
+  else if (bmi >= 25 && bmi <= 29.9) console.log("YOU ARE OVERWEIGHT");
+  else console.log("WARNING! YOU ARE OBESE");
+}
+bmiCalc(60, 1.8);
+*/

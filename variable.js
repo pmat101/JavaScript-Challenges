@@ -376,6 +376,15 @@ function bmiCalc(weight, height) {
 }
 bmiCalc(60, 1.8);
 
+//  34
+function solveLinEquation(a, b, c) {
+  var n = 0 - c;
+  for (var x = 0; a * x <= n; x++) {
+    if ((n - a * x) % b == 0) console.log(`x = ${x} & y = ${(n - a * x) / b}`);
+  }
+}
+solveLinEquation(1, 2, -3);
+
 //  35
 const arr = [764, 445, 45, 457, 465, 83, 23, 128, 374, 745, 674, 398, 920, 10];
 let flag = 0;
